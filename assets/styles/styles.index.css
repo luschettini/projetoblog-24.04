@@ -14,7 +14,6 @@ body {
 header {
     display: flex;
     justify-content: space-around;
-    margin-top: 10px;
     height: 150px;
     background-color: rgb(247, 222, 240);
     color: black;
@@ -34,4 +33,13 @@ header {
     text-decoration: none;
     color: rgb(7, 7, 7);
     font-size: 1.2rem;
+    border-bottom: 3px solid transparent; 
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
 }
+
+#links a:hover {
+    border-bottom: 3px solid white;
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
+}   
